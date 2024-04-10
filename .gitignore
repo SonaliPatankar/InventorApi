@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/InventorAPI/.vs
+/InventorAPI/lesson1_VS2017_CSharp_Complete/.vs
+/InventorAPI/lesson1_VS2017_CSharp_Complete/bin/Debug
+/InventorAPI/lesson1_VS2017_CSharp_Complete/obj/Debug
+/InventorAPI/lesson1_VS2017_CSharp_Complete/Properties
