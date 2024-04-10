@@ -28,12 +28,6 @@ namespace DeleteApi
 
                     _invApp = (Inventor.Application)System.Activator.CreateInstance(invAppType);
                     _invApp.Visible = true;
-
-                    //Note: if the Inventor session is left running after this
-                    //form is closed, there will still an be and Inventor.exe 
-                    //running. We will use this Boolean to test in Form1.Designer.cs 
-                    //in the dispose method whether or not the Inventor App should
-                    //be shut down when the form is closed.
                     _started = true;
 
                 }
@@ -46,9 +40,8 @@ namespace DeleteApi
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
-            //Add code for Lesson 1 here
 
             if (_invApp.Documents.Count == 0)
             {
